@@ -1,0 +1,279 @@
+
+.wrapper {
+    width: 1015px;
+    margin: 20px auto;
+}
+
+
+.navi {
+    display: block;
+    float: right;
+}
+
+.info {
+    float: right;
+}
+
+.info li {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.info li:nth-child(2n) {
+    padding-left: 35px;
+}
+
+.info li:nth-child(3) {
+    padding-left: 35px;
+}
+
+.info li:hover {
+    text-decoration: underline;
+    color: #599bb3;
+    cursor: pointer;    
+}
+
+.intro {
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+    height: 492px;
+}
+
+.kolon {
+    width: 325px;
+    background-color: #73aac3;
+    opacity: .7;
+    height: 100%;
+    margin-left: 105px;
+    color: #fff;
+    text-align: center;
+}
+
+.kolon h1 {
+    padding-top: 40px;
+}
+
+.kolon p {
+    font-size: 14px;
+    margin: 35px 35px 60px 35px;
+    line-height: 23px;
+}
+
+.b-here {
+    background: #fff;
+    width: 250px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #5a9eb6;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+/*Вторая страница*/
+
+.about {
+    margin-top: 60px;
+}
+
+.what li {
+    display: inline-block;
+    width: 33%;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.what li p {
+    opacity: .4;
+    line-height: 23px;
+}
+
+.why {
+    padding-top: 90px;
+}
+
+.why ul {
+    padding-top: 50px;
+}
+
+.why h2 {
+    margin-left: 105px;
+    text-transform: uppercase;
+    font-size: 34px;
+    line-height: 23px;
+    color: #5495ab;
+}
+
+.clock li {
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.clock li h3 {
+    font-size: 21px;
+    color: #5495ab;
+}
+
+.clock li p {
+    font-size: 13px;
+    color: #000;
+}
+
+.nas li {
+    display: inline-block;
+    width: 33%;
+    text-align: left;
+    cursor: pointer;
+    padding-top: 80px;
+}
+
+.onas {
+    margin-left: 55px;
+    padding-top: 90px;
+}
+
+.onas h2 {
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 34px;
+    line-height: 23px;
+    color: #5495ab;
+}
+
+.onas h3 {
+    color: #5495ab;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: left;
+}
+
+.nas li p {
+    opacity: .5;
+    font-size: 14px;
+    text-align: left;
+}
+
+.foto li {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.portfolio {
+    padding-top: 100px;
+}
+
+.portfolio h2 {
+    margin-left: 100px;
+    text-transform: uppercase;
+    color: #5495ab;
+    font-size: 34px;
+    line-height: 23px;
+}
+
+.foto {
+    padding-top: 50px;
+}
+
+.foto li button {
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 213px;
+    height: 40px;
+    background-color: #5495ab;
+    color: #fff;
+    cursor: pointer;
+    border: 0px #5495ab;
+}
+
+.non-stop ul {
+    display: block;
+    text-align: left;
+    list-style: none;
+}
+
+.stop {
+    margin-left: 90px;
+    color: #5495ab;
+    font-size: 34px;
+    line-height: 23px;
+    margin-top: 60px;
+}
+
+.item1 {
+    float: left;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.item2 {
+    float: left;
+    width: 40%;
+    padding-left: 50px;
+}
+
+.contact {
+    margin-top: 70px;
+}
+
+.contact h2 {
+    margin-left: 90px;
+    font-size: 34px;
+    line-height: 23px;
+    color: #5495ab;
+}
+
+.svaz {
+    float: left;
+    width: 40%;
+    margin-left: 90px;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+
+.kontakt {
+    float: right;
+    width: 30%;
+    padding-right: 100px;
+    list-style: none;
+}
+
+.kontakt li {
+    background-color: #5495ab;
+    height: 35px;
+    border: 2px solid #fff;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.foot {
+    height: 120px;
+    margin-top: 60px;
+    background-color: #e8e8e8;
+    border-top: 3px solid #999999;
+}
+
+.foot img {
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+.niz {
+    float: right;
+    width: 50%;
+    text-align: center;
+    color: #5495ab;
+}
